@@ -1,0 +1,216 @@
+/** 读物 Lofter for Typecho CSS Files */
+body,h1,h2,h3,h4,h5,p{
+	margin:0px;
+	padding:0px;
+	font-family: Microsoft Yahei;
+}
+body{
+	background-color: #f1f1f1;
+}
+.container{
+	width:68%;
+	margin:0 auto;
+}
+@media screen and (max-width: 992px){
+	.container{
+		width: 90%;
+	}
+}
+#header{
+	background-color: #dcdcdc;
+	padding:15 0px;
+	width:100%;
+}
+.siteTitle{
+	font-size:32px;
+	font-weight: normal;
+	text-decoration: none;
+	color:#000;
+}
+.navi-item{
+	list-style: none;
+	margin-top:10px;
+}
+.navi-item li{
+	display: inline;
+	margin-right: 20px;
+}
+.navi-item li a{
+	color:#888;
+	text-decoration: none;
+	font-size:12px;
+}
+.search-area{
+	float: right;
+	height:26px;
+	background-color: #cacaca;
+}
+.searcher{
+	background: #cacaca;
+	width: 150px;	
+	border:0px;
+	color:#888;
+}
+.search-area button{
+	border:0px;
+	background-color: transparent;
+}
+@media screen and (max-width: 992px){
+	.search-area{
+		display: none!important;
+	}
+}
+#document{
+	padding-top: 50px;
+}
+.doc-body{
+	padding:50 0;
+	border-width: 1px 0 0 0 ;
+	border-style: solid;
+	border-color:#e7e7e7;
+	zoom:1;
+}
+.content{
+	width: 80%;
+	display: inline-block;
+}
+.article-title{
+	font-size:20px;
+	color:#000;
+	padding:10 0;
+	text-decoration: none;
+}
+.article-content{
+	font-size:14px;
+	line-height: 1.8;
+	margin:10 auto;
+}
+.detail{
+	width:15%;
+	
+}
+.detail a{
+	font-size:12px;
+	color:#888;
+	display: block;
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+@media screen and (max-width: 992px){
+	.content{
+		width: 100%;
+	}
+	.detail{
+		width: 100%;
+		clear: both!important;
+	}
+	.detail a{
+		display: inline;
+		margin:0 5px;
+	}
+}
+@media screen and (min-width: 992px){
+	.detail{
+		float: right;
+	}
+}
+.pagination{
+	list-style: none;
+}
+.pagination li{
+	display: inline;
+}
+.pagination li a{
+	color:#000;
+	padding:10px;
+	text-decoration: none;
+}
+.copyright{
+	padding: 20 0px;
+	width: 100%;
+	background-color: #dcdcdc;
+}
+.copyright p{
+	font-size:12px;
+	color:#888;
+	text-align: center;
+}
+.copyright a{
+	color:#000;
+	text-decoration: none;
+}
+#to-top{
+	font-size:28px;
+	display: block;
+	text-decoration: none;
+	color:#888;
+	position: fixed;
+	bottom: 10%;
+	right: 5%;
+	background-color: #dedede;
+	padding:10px;
+}
+.comment-list{
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+.comment-body{
+	padding:0 10px;
+	border-left:3px solid pink;
+}
+.comment-list a{
+	color:#444;
+	text-decoration: none;
+}
+.comment-author .fn{
+	font-size:14px;
+	font-style: normal;
+	margin:6 10px;
+	display: inline-block;
+}
+.comment-author .avatar{
+	display: inline-block;
+	float: left;
+}
+.comment-meta,.comment-author{
+	display: inline;
+}
+.comment-meta{
+	float:right;
+	font-size:14px;
+	padding:10 0px;
+}
+.comment-content{
+	margin:8 0px;
+	color:#444;
+}
+.comment-reply{
+	text-align: right;
+	font-size:14px;
+}
+.respond a{
+	text-decoration: none;
+	color:#000;
+}
+.textarea{
+	width: 100%;
+	height:100px;
+	margin:10 0px;
+	font-size:16px;
+	font-family: Microsoft Yahei;
+}
+#postcomment{
+	border:0px;
+	background: #777;
+	color:#fff;
+	padding:4 20px;
+}
+.input-area input{
+	width: 90%;
+	margin-left: 6%;
+	margin-bottom: 8px;
+}
+.article-content img{
+	width: 100%;
+}
